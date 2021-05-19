@@ -5,22 +5,29 @@
     <title>REPORT</title>
 </head>
  <style >
-     table, th, td {
-  border: 2px solid black;
-}
+    table, th, td {
+	font-size: 20px;
+	border: 2px solid black;
+				}
 th, td {
   padding: 7px;
+  color: blue;
+ 
 }
 table {
   border-spacing: 5px;
+  text-align: center;
+
 }
-table {
-  width: 25%;
+
+ table {
+  width: 60%;
 }
+
 .button {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
+  background-color: green;
+  border: solid black;
+  color:  white;
   padding: 10px 15px;
   text-align: center;
   text-decoration: none;
@@ -29,13 +36,20 @@ table {
   margin: 4px 2px;
   cursor: pointer;
 }
+	.m{
+		 margin-right:700px;
+		  margin-top:-70px;
+		}
 
  </style>
    
 	<style>
 		body {
-			background-image: url('https://img.freepik.com/free-vector/photography-studio-background_64749-538.jpg?size=626&ext=jpg');
-			background-size: cover;
+			background-image: url('https://previews.123rf.com/images/mungkorn123rf/mungkorn123rf1712/mungkorn123rf171200004/91030170-abstract-geometric-shape-medicine-and-science-concept-background-medical-icons.jpg');
+			  background-repeat: no-repeat;
+			  background-attachment: fixed;
+			  background-size: cover;
+			  background-size: 100% 100%;
 		
 		}
 	</style>
@@ -43,54 +57,54 @@ table {
 
 <center>
 
-        
+         <div class="m">
         <table border="1" >  <!-- table = used for create tabel, tr = for table row,th = for table colomn,td = for table data. -->
-            <br><br><br><br>
-           <caption><h1><b><font color="red">REPORT</font></b></h1></caption>
+            <br><br>
+           <caption><h1><b><font color=" red">REPORT</font></b></h1></caption>
             <thead>  <!--table head for understand purpose-->
                 <tr>
-                    <th>Attributes</th>
-                    <th> Values</th>
+                    <th><font color=" black"><b>Attributes</th>
+                    <th><font color=" black"> Values</th></font>
                 </tr>
             </thead>
             <tbody> <!--table body for understand purpose-->
                 <tr>
                  <tr>
-                    <td> AGE </td>
-                    <td> {{query1}} </td>
+                    <td><b> Age </td>
+                    <td><b> {{query1}} </td>
                 </tr>
                 <tr>
-                    <td> GENDER </td>
-                    <td> {{query2}}</td>                    
+                    <td> <b>Gender </td>
+                    <td><b> {{query2}}</td>                    
                 </tr>
                 <tr>
-                    <td> Cigarets Per Day </td>
-                    <td> {{query3}}</td>
+                    <td><b> Cigarets Per Day </td>
+                    <td> <b>{{query3}}</td>
                 </tr>
 				<tr>
-                    <td> Hypertensive </td>
+                    <td><b> Hypertensive </td>
                     <td> {{query4}}</td>
 				</tr>
 				<tr>
-					<td>  Heart Rate </td>
-                    <td> {{query5}}</td>					
+					<td>  <b>Heart Rate </td>
+                    <td> <b>{{query5}}</td>					
                 </tr>
 		    
 				<tr>
-                    <td> BMI </td>
-                    <td> {{query6}}</td>
+                    <td><b> BMI </td>
+                    <td><b> {{query6}}</td>
                 </tr>
 				<tr>
-                    <td>  Systolic Blood Pressure </td>
-                    <td> {{query7}}</td>					
+                    <td><b>  Systolic Blood Pressure </td>
+                    <td> <b>{{query7}}</td>					
                 </tr>
 				<tr>
-                    <td>  Diastolic Blood Pressure </td>
-                    <td> {{query8}}</td>					
+                    <td><b>  Diastolic Blood Pressure </td>
+                    <td> <b>{{query8}}</td>					
                 </tr>
 				<tr>
-                    <td>  Glucose</td>
-                    <td> {{query9}}</td>					
+                    <td> <b> Glucose</td>
+                    <td> <b>{{query9}}</td>					
                 </tr><br><br>
 				<tr>
                     <td><font color="red"><b>  OUTPUT <b></td></font>
